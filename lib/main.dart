@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
             Image.asset(
               "assets/quote untuk anak muda.png",
               width: width,
-              fit: BoxFit.cover,
+              fit: BoxFit.fitHeight,
             ),
             if (isSHow)
               Container(
